@@ -22,5 +22,7 @@ Running this script regularly helps keep your VM efficient and free from unneces
 
 ## Run
 Navigate to the script's directory and execute:
-  
-  $ sudo ./snap_cleanup.sh
+    ```bash
+    $ sudo ./snap_cleanup.sh
+   ```
+ 
