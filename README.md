@@ -19,3 +19,8 @@ Snap cleanup is crucial for limited resource environments like virtual machines 
 ## Conclusion
 
 Running this script regularly helps keep your VM efficient and free from unnecessary Snap clutter.
+
+## Run
+Navigate to the script's directory and execute:
+  
+  $ sudo ./snap_cleanup.sh
