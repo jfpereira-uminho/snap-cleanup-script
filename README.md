@@ -6,17 +6,17 @@ Snap cleanup is crucial for limited resource environments like virtual machines 
 
 ## Key Benefits:
 
-    **Frees Up Disk Space**
+ **Frees Up Disk Space**
 
-        Snap retains old, disabled versions of applications, consuming unnecessary storage.
+     - Snap retains old, disabled versions of applications, consuming unnecessary storage.
 
-        Removing them prevents disk bloat, which is critical in VMs with small storage allocations.
+     - Removing them prevents disk bloat, which is critical in VMs with small storage allocations.
 
-    **Clears Unused Cache**
+ **Clears Unused Cache**
 
-        Snap stores temporary files in /var/lib/snapd/cache/, which accumulates over time.
+     - Snap stores temporary files in /var/lib/snapd/cache/, which accumulates over time.
 
-        Cleaning it ensures efficient space utilization and prevents waste.
+     - Cleaning it ensures efficient space utilization and prevents waste.
 
 ## Conclusion
 
